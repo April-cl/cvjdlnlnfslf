@@ -1,0 +1,63 @@
+.bio {
+    position: relative;
+  }
+  .bio img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .projects {
+  }
+  .projects > ol > li {
+    margin-bottom: 24px;
+  }
+  .projects > ol > li h3 {
+    display: inline-block;
+  }
+  .projects > ol > li > header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skills {
+  }
+  .skills > .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills > .wrapper > ul {
+    color: #666;
+  }
+  .skills > .wrapper > ul > li {
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  
+  .openSource {
+  }
+  .openSource > ul > li {
+    margin-bottom: 24px;
+  }
+  .openSource > ul > li > header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .jobs {
+  }
+  
+  .item .QRCode {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .item .QRCode li {
+    flex: 1;
+  }
+  
+  .item .QRCode li img {
+    width: 100px;
+  }
+  
