@@ -35,6 +35,11 @@
   width: 80px;
 }
 
+.highlight {
+  color: #e72312;
+  font-weight: bold;
+}
+
 .jobs header, .education header {
   display: flex;
   color: #666;
@@ -56,7 +61,6 @@
   margin-left: auto;
 }
 
-.highlight {
-  color: #e72312;
-  font-weight: bold;
+.other img {
+  width: 16px;
 }
