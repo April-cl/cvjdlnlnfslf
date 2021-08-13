@@ -1,63 +1,62 @@
 .bio {
-    position: relative;
-  }
-  .bio img {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  
-  .projects {
-  }
-  .projects > ol > li {
-    margin-bottom: 24px;
-  }
-  .projects > ol > li h3 {
-    display: inline-block;
-  }
-  .projects > ol > li > header {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .skills {
-  }
-  .skills > .wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-  .skills > .wrapper > ul {
-    color: #666;
-  }
-  .skills > .wrapper > ul > li {
-    line-height: 1.2;
-    margin-bottom: 8px;
-  }
-  
-  .openSource {
-  }
-  .openSource > ul > li {
-    margin-bottom: 24px;
-  }
-  .openSource > ul > li > header {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .jobs {
-  }
-  
-  .item .QRCode {
-    display: flex;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .item .QRCode li {
-    flex: 1;
-  }
-  
-  .item .QRCode li img {
-    width: 100px;
-  }
-  
+  position: relative;
+}
+
+.bio a {
+  color: #666;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.item .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item .QRCode {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.item .QRCode li:first-child {
+  margin-right: 20px;
+}
+
+.item .QRCode li img {
+  width: 80px;
+}
+
+.jobs header, .education header {
+  display: flex;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.jobs header>h3, .education header>h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.jobs header>h4, .education header>h4 {
+  margin-left: 1em;
+  font-size: 18px;
+}
+
+.jobs header>span, .education header>span {
+  font-size: 18px;
+  margin-left: auto;
+}
+
+.highlight {
+  color: #e72312;
+  font-weight: bold;
+}
